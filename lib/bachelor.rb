@@ -101,5 +101,5 @@ def get_average_age_for_season(data, season)
     average_sum += item
   end
   final_average = average_sum.to_f/return_value.length.to_f
-return final_average
+return final_average.round
 end
